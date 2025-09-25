@@ -2,13 +2,53 @@
   margin: 0;
   padding: 0;
   }
-  nav{
+  .nav-links{
   background-color: #3E3C3C;
   color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.25rem;
   }
   
-  .nav-links{
+  nav ul{
+    display: flex; /* placed everything under nav ul on a straight line */
+    gap: 2rem; /*space in between */
+}
+
+h1{
+  color: #F55800;
+  font-weight: 400px;
+}
+
+h2,h4{
+  color: white;
+}
+
+.main {
+  background-color: #000000;
+  height: 1440px;
+}
+
+.container{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+}
+
+.content_2{
+  width: 566;
+  height: 729;
+  top: 64px;
+  left: 142px;
+  padding-top: 192px;
+  gap: 24px;
+  opacity: 1;
+}
+
+.content_1{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 220px;
+  padding-right: 40px;
+  padding-left: 20px;
 }
