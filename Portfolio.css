@@ -55,11 +55,7 @@ h2,h4{
 }
 
 .content_3{
-display: flex;
-flex: 1;
-background-image: url('img/background.png');
-background-size: cover;
-background-position: center right;
-background-repeat: no-repeat;
-opacity: 1;
+width: 12px;
+margin-left: 20px;
+margin-right: 100px;
 }
